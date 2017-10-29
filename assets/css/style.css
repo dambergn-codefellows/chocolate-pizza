@@ -1,0 +1,33 @@
+*{
+
+}
+
+header{
+  border: 1px solid black;
+  height: 100px;
+}
+
+#logo{
+  display: inline;
+}
+
+#links{
+  float: right;
+}
+
+#print{
+  float: right;
+}
+
+#mainImg{
+  border: 1px solid black;
+  width: 100%
+}
+
+body {
+  width: 1000px;
+  height: 100%;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
