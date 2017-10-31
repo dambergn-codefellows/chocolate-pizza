@@ -7,34 +7,57 @@
   </head>
   <body>
     <header>
-      <div id="logo">
-        <img src="assets/img/logo.png" alt="Logo">
-        <h4>Delicious</h4>
-        <p>THE BEST FOOD BLOG ON THE WEB</p>
-      </div>
-      <div id="links">
-        <img src="assets/img/fb-icon.png" alt="Facebook">
-        <img src="assets/img/twit-icon.png" alt="Twitter">
-        <img src="assets/img/gp-icon.png" alt="Google+">
-        <img src="assets/img/insta-icon.png" alt="Instagram">
-        <img src="assets/img/flic-icon.png" alt="Flicker">
-        <img src="assets/img/pint-icon.png" alt="Pintrest">
-        <img src="assets/img/rss-icon.png" alt="RSS">
-        <img src="assets/img/mail-icon.png" alt="Mial">
+      <div class="navbar">
+        <div class="logo">
+          <img src="assets/img/logo.png" alt="Logo">
+        </div>
+        <div class="logoText">
+          <p id="headding">Delicious</p>
+          <p id="subHead">THE BEST FOOD BLOG ON THE WEB</p>
+        </div>
+        <div class="socialMedia">
+          <div class="facebook">
+            <a href="https://www.facebook.com"><img src="assets/img/fb-icon.png" alt="Facebook Icon"></a>
+          </div>
+          <div class="twitter">
+            <a href="https://www.twitter.com"><img src="assets/img/twit-icon.png" alt="Twitter Icon"></a>
+          </div>
+          <div class="googlePlus">
+            <a href="https://plus.google.com"><img src="assets/img/gp-icon.png" alt="Google Plus Icon"></a>
+          </div>
+          <div class="instagram">
+            <a href="https://www.instagram.com"><img src="assets/img/insta-icon.png" alt="Instagram Icon"></a>
+          </div>
+          <div class="flickr">
+            <a href="https://www.flickr.com"><img src="assets/img/flic-icon.png" alt="Flickr Icon"></a>
+          </div>
+          <div class="pintrest">
+            <a href="https://www.pinterest.com"><img src="assets/img/pint-icon.png" alt="Pintrest Icon"></a>
+          </div>
+          <div class="rssFeed">
+            <a href="https://google.com"><img src="assets/img/rss-icon.png" alt="Rss Feed Icon"></a>
+          </div>
+          <div class="email">
+            <a href="https://.google.com"><img src="assets/img/mail-icon.png" alt="Email Icon"></a>
+          </div>
+        </div>
       </div>
     </header>
-    <div id="article">
+    <div class="article">
       <h1>Chocolate Pizza</h1>
       <p>POSTED ON 15 DEC 2013 / DESERTS</p>
-      <img id="print" src="assets/img/print-icon.png" alt="PRINT">PRINT</img>
+      <img class="print" src="assets/img/print-icon.png" alt="PRINT">PRINT</img>
     </div>
-    <img id="mainImg" src="assets/img/choco-pizza.png" alt="Chocolate Pizza">
-    <p>For the fig-swirl: Melt butter over the medium heat in a saucepan.  Add brown sugar and stir to disolve.  Halve all of the figs and toss in the saucepan with water and lemon juice.  Cook over medium heat, stiring frequently, until you hav a chunky-jammy mixture.  Add salt with one or two stirs, set aside and let cool completely.</p><br>
-    <p>Ice Cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely disolved and the mil is just barely lukewarm.  whisk in the egg yolks.  Set mixture in the fridge and wait until the fig mixture is cooled.</p><br>
-    <p>Using and ice cream machine, pour liquids into the frozen basin and process according to manufacturerer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts.  Continue to process for  +/- 10 minutes.  Pour semi-frozen mixture into a pyrex dish or glass tupperware.  Freeze for at least two hours before serving.</p><br>
+    <hr></hr>
+    <img class="mainImg" src="assets/img/choco-pizza.png" alt="Chocolate Pizza">
+    <div class="artText">
+      <p>For the fig-swirl: Melt butter over the medium heat in a saucepan.  Add brown sugar and stir to disolve.  Halve all of the figs and toss in the saucepan with water and lemon juice.  Cook over medium heat, stiring frequently, until you hav a chunky-jammy mixture.  Add salt with one or two stirs, set aside and let cool completely.</p><br>
+      <p>Ice Cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely disolved and the mil is just barely lukewarm.  whisk in the egg yolks.  Set mixture in the fridge and wait until the fig mixture is cooled.</p><br>
+      <p>Using and ice cream machine, pour liquids into the frozen basin and process according to manufacturerer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts.  Continue to process for  +/- 10 minutes.  Pour semi-frozen mixture into a pyrex dish or glass tupperware.  Freeze for at least two hours before serving.</p><br>
+    </div>
     <form>
       <img src="assets/img/list-bg.png" alt="Mial">
-      <div>
+      <div class="listp1">
         <input type="checkbox" name="ingredient" value="milk"> 1 1/2 cups milk<br>
         <input type="checkbox" name="ingredient" value="masccarpone"> 1/2 cup masccarpone<br>
         <input type="checkbox" name="ingredient" value="salt"> 1/2 tsp pink salt<br>
@@ -42,7 +65,7 @@
         <input type="checkbox" name="ingredient" value="sugar"> 1/2 cup brown sugar<br>
         <input type="checkbox" name="ingredient" value="water"> 1-4 tbsp water<br>
       </div>
-      <div>
+      <div class="listp2">
         <input type="checkbox" name="ingredient" value="cream"> 1 1/2 cups heavy cream<br>
         <input type="checkbox" name="ingredient" value="sugar"> 1/3 granulated sugar<br>
         <input type="checkbox" name="ingredient" value="egg-yolk"> 2 egg yolks<br>
@@ -51,13 +74,14 @@
         <input type="checkbox" name="ingredient" value="pecans"> 1 cup honey roasted pecans, roughly chopped<br>
       </div>
     </form>
+    <hr></hr>
     <div>
       <img src="assets/img/van-pic.png" alt="headshot">
       <h3>Vanessa Stevenson</h3>
       <p>Food enthusiast, photography fan.  Add a pinch of raw foodism and thet's pretty much who I am.</p>
       <button onclick="myFunction()">SHARE RECIPE</button>
     </div>
-    <footer id="footer">
+    <footer class="footer">
 						<p class="copyright">Delicious &copy; 2013 * All Rights Reserved. <br> Proudly published with Ghost.</a>.</p>
 					</footer>
   </body>

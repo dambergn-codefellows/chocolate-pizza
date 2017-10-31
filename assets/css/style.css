@@ -1,33 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 *{
 
 }
-
-header{
-  border: 1px solid black;
-  height: 100px;
-}
-
-#logo{
-  display: inline;
-}
-
-#links{
-  float: right;
-}
-
-#print{
-  float: right;
-}
-
-#mainImg{
-  border: 1px solid black;
-  width: 100%
-}
-
 body {
   width: 1000px;
   height: 100%;
   border: 1px solid black;
   margin-left: auto;
   margin-right: auto;
+}
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 901px;
+  height: 42px;
+  padding-top: 15px;
+  float: center;
+}
+.logo, .logoText {
+  margin-left: 5px;
+  margin-right: 5px;
+  float: left;
+}
+.logoText #headding {
+  font-family: 'Dancing Script';
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+}
+#subHead {
+  font-family: sans-serif;
+  font-size: 10px;
+  margin: 0px;
+  opacity: 0.5;
+}
+.socialMedia {
+  height: 42px;
+  float: right;
+}
+.facebook, .twitter, .googlePlus, .instagram, .flickr, .pintrest, .email {
+  height: 26px;
+  width: 26px;
+  float: left;
+  margin-right: 2px;
+}
+.rssFeed {
+  height: 26px;
+  width: 26px;
+  float: left;
+  margin-right: 2px;
+  margin-left: 5px;
+}
+.titleOfProduct #headding {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 30px;
+  margin: 0px;
+}
+.mainImg{
+  border: 1px solid black;
+  width: 100%
 }
