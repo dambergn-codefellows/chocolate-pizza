@@ -6,14 +6,16 @@
 body {
   width: 1000px;
   height: 100%;
-  border: 1px solid black;
+
   margin-left: auto;
   margin-right: auto;
 }
+
+/*Headder*/
 .navbar {
   margin-left: auto;
   margin-right: auto;
-  width: 901px;
+  width: 1000px;
   height: 42px;
   padding-top: 15px;
   float: center;
@@ -52,12 +54,99 @@ body {
   margin-right: 2px;
   margin-left: 5px;
 }
+.printIcon, .printText {
+  float: right;
+}
+.printIcon {
+  margin-right: auto;
+}
+
+/*Breaks page into sections*/
+hr {
+  height: 15px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+/*Article*/
 .titleOfProduct #headding {
   font-family: 'Archivo Black', sans-serif;
   font-size: 30px;
   margin: 0px;
 }
 .mainImg{
-  border: 1px solid black;
+
   width: 100%
+}
+.artText {
+
+  width: auto;
+  text-indent: 30px;
+  font-size: 19px;
+}
+.ingrediants {
+
+  background-image: url("../img/list-bg.png");
+  z-index: 1;
+  float: left;
+  height: 309px;
+  width: 899px;
+}
+.listp1, .listp2 {
+
+  float: left;
+  margin-bottom: 15px;
+  margin-left: 60px;
+  margin-right: 45px;
+  font-size: 22px;
+
+}
+
+input{
+  margin-bottom: 12px;
+}
+
+/*Footer*/
+.footer {
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: auto;
+  height: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.authorPhoto, .authorText {
+  float: left;
+}
+.authorText #name {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+}
+.authorText #statement {
+  font-size: 20px;
+  margin: 0px;
+}
+.shareButton {
+  float: left;
+  text-align: center;
+}
+button {
+  margin-left: 20px;
+  width: 200px;
+  height: 40px;
+  background: salmon;
+  color: white;
+  font-size: 18px;
+}
+.copyright {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.copyright p {
+  opacity: 0.5;
 }
