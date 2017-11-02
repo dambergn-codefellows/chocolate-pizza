@@ -3,10 +3,14 @@
 *{
 
 }
+/* used to check position of divs
+body, .navbar, .mainImg, .artText, .ingrediants, .listp1, .listp2, .footer {
+  border: 1px solid black;
+} */
+
 body {
   width: 1000px;
   height: 100%;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -67,10 +71,12 @@ hr {
   width: 100%;
   margin-top: 15px;
   margin-bottom: 0px;
+  background-color: salmon;
+  opacity: 0.5;
 }
 
 /*Article*/
-.titleOfProduct #headding {
+.article #headding {
   font-family: 'Archivo Black', sans-serif;
   font-size: 30px;
   margin: 0px;
@@ -96,13 +102,12 @@ hr {
 .listp1, .listp2 {
 
   float: left;
+  margin-top: 30px;
   margin-bottom: 15px;
   margin-left: 60px;
   margin-right: 45px;
   font-size: 22px;
-
 }
-
 input{
   margin-bottom: 12px;
 }
